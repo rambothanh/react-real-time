@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeParse } from '@parse/react';
+
+
+initializeParse(
+  'http://parseserver-7b32c0b898b4.herokuapp.com/parse',
+  'APP_IDCuaNguyenTrongThanh',
+  'JAVASCRIPT_KEYCuaNguyenTrongThanh'
+);
 
 ReactDOM.render(
   <React.StrictMode>
