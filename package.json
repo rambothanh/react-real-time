@@ -2,6 +2,9 @@
   "name": "react-parse-hooks",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.9.0"
+  },
   "dependencies": {
     "@parse/react": "^0.0.1-alpha.14",
     "@testing-library/jest-dom": "^5.11.4",
